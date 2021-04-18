@@ -1,8 +1,13 @@
 We use the Spinning up framework for Stackelberg actor critic implementation. 
 
+[spinup/run_experiments.py](spinup/run_experiments.py) is a sample script to run vanilla actor-critic, DDPG, SAC and their Stackelberg versions.
+
+The implementation of algorithms can be found at:
 - STAC: [spinup/algos/pytorch/stac](spinup/algos/pytorch/stac)
 - STDDPG: [spinup/algos/pytorch/stddpg](spinup/algos/pytorch/stddpg).
 - STSAC: [spinup/algos/pytorch/stsac](spinup/algos/pytorch/stsac).
+
+[example.ipynb](example.ipynb) contains the code for the motivation example in Section 3.2.
 
 Welcome to Spinning Up in Deep RL! 
 ==================================
