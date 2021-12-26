@@ -1,3 +1,7 @@
+This repository contains source code of the paper:
+
+Liyuan Zheng, Tanner Fiez, Zane Alumbaugh, Benjamin Chasnov, and Lillian J. Ratliff, "Stackelberg Actor-Critic: Game-Theoretic Reinforcement Learning Algorithms", AAAI 2022. [[ArXiv]](https://arxiv.org/abs/2109.12286)
+
 We use the Spinning up framework for Stackelberg actor critic implementation. 
 
 [spinup/run_experiments.py](spinup/run_experiments.py) is a sample script to run vanilla actor-critic, DDPG, SAC and their Stackelberg versions.
